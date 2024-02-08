@@ -7,4 +7,4 @@ Entre elas está a paleta de cores, onde optei por tons de verde e detalhes em r
 As páginas consistem em Index e Contato, com a primeira possuíndo menu de navegação, espaco para a descrição do profissional, espaço para vídeo do pitch pessoal e footer com links para outras maneiras de comunicação como redes sociais.
 
 # Navegue pela versão live!
-[Clique para ver mais!](https://desafio-t70.vercel.app/contato.html)
+[Clique para ver mais!](https://desafio-t70.vercel.app/index.html)
