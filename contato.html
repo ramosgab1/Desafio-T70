@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/lara.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cont-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+</head>
+
+<body class="body">
+
+    <div><nav class="menu-container">
+        <div class="menu-left">
+            <img src="./assets/images/24 - Pink Bulba II.png" alt="Logo" width="80px" height="70px" class="menu-img">
+            <span>Portfólio da Gabi</span>
+        </div>
+
+        <ul class="menu ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#perfil">Sobre</a></li>
+            <li><a href="#video">Vídeo</a></li>
+            <li><a href="contato.html" class="current">Contato</a></li>
+        </ul>
+    </nav>
+
+
+    <main class="form-section">
+        <section>
+            <div>
+            <h3 class="form-name"><span class="underline">Cont</span>ato</h3>
+                <form>
+                    <div>
+                        <label for="nome" class="form-name">Nome:</label><br>
+                        <input onkeyup="validarNome()" id="nome" name="nome" type="text"
+                            placeholder="Insira o seu nome completo" class="form-input-cont">
+                        <div id="txtNome"></div>
+                    </div>
+
+                    <div class="campos-form" >
+                        <label for="email" class="form-name">E-mail:</label><br>
+                        <input onkeyup="validarEmail2()" id="email" name="email" type="text"
+                            placeholder="Insira o seu e-mail" class="form-input-cont">
+                        <div id="txtEmail"></div>
+                    </div>
+
+                    <div class="campos-form">
+                        <label for="mensagem" class="form-name">Mensagem:</label><br>
+                        <textarea onkeyup="validarMensagem()" id="mensagem" name="mensagem" rows="8"
+                            placeholder="Deixe sua mensagem..." class="form-input-cont-bigger"></textarea>
+                        <div id="txtMensagem"></div>
+                    </div>
+
+                    <button type="button" onclick="enviarForm()" class="button">
+                        Enviar
+                    </button>
+                </div>
+
+
+                </form>
+        </section>
+
+        <section id="formulario_buscacep"><div class="form">
+            <h3 class="form-name"><span class="underline">Consul</span>tar CEP</h3>
+            <div>
+                <div>
+                    <label for="cep" class="form-name">CEP:</label><br>
+                    <input onkeyup="validarCep()" id="cep" name="cep" type="text" placeholder="Digite o número do CEP"
+                    class="form-input-cont">
+                    <div id="txtCep"></div>
+                </div>
+                <button type="button" onclick="consultarCep()" class="button">
+                    Consultar
+                </button>
+
+                <hr class="hr-color">
+                
+                <div>
+                    <label for="dados" class="form-name">Endereço:</label><br>
+                    <textarea id="dados" name="dados" rows="7" placeholder="Busca CEP..." class="form-input-cont-bigger"></textarea>
+                    <div id="txtCep"></div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-icons-cont">
+            <a href="http://linkedin.com" target="_blank">
+                <img src="assets/images/linkedin.png" alt="Linkedin" class="footer-icons">
+            </a>
+            <a href="http://github.com" target="_blank">
+                <img src="assets/images/github.png" alt="Github" class="footer-icons">
+            </a>
+            <a href="http://instagram.com" target="_blank">
+                <img src="assets/images/instagram.png" alt="Instagram" class="footer-icons">
+            </a>
+        </div>
+        <p class="footer-text">Desenvolvido por: Gabrielle Ramos - 2024 &copy;</p>
+    </footer>
+
+</body>
+</html>

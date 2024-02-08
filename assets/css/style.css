@@ -1,0 +1,157 @@
+/*  PARTES REFERENTES AO MENU (NAV) */
+.menu-container{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Centraliza horizontalmente */
+    background-color: #499167;
+    padding: 10px;
+    margin-left: 100px; /* Margem automática à esquerda */
+    margin-right: 100px; /* Margem automática à direita */
+    margin-top: 0; /* Remova a margem superior */
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    justify-content: right;
+}
+
+.menu-img {
+    justify-content: left;
+    align-items: middle; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-portf{
+    display:flex; 
+    vertical-align: middle;
+}
+.menu-left{
+    align-items: left; 
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.menu li{ 
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li a {
+    display: flex;
+    flex-direction: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .menu li a.current { /* Deixa o link da página atual marcado com a corzinha. */
+    color: #91F9E5;
+    
+}
+
+  /* REFERENTES AO CORPO DO SITE*/
+
+  .body{ 
+    background-color: #B7BEBA;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+  }
+  .title-h1{
+    margin-left: 100px; 
+    margin-right: 100px; 
+    font-family: "Raleway", sans-serif;
+  }
+
+  .underline{
+    text-decoration: underline;
+    text-decoration-color: #D05153;
+  }
+
+  .body-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Centraliza horizontalmente */
+    background-color: #499167;
+    padding: 20px;
+    margin-left: 100px; /* Margem automática à esquerda */
+    margin-right: 100px; /* Margem automática à direita */
+    margin-top: 20px; /* Remova a margem superior */
+    border-radius: 10px;
+  }
+
+  .body-text{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px; 
+    text-align: justify;
+    padding: 30px;
+  }
+
+  .body-imagem{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    padding:30px;
+  }
+
+  .title-h2{
+    margin-left: 100px; 
+    margin-right: 100px; 
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+  }
+
+  .center-al{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  /* REFERENTE AO FOOTER DO SITE */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    background-color: #499167;
+    padding: 10px;
+    margin-left: 100px; /* Margem automática à esquerda */
+    margin-right: 100px; /* Margem automática à direita */
+    margin-top: 0; /* Remova a margem superior */
+}
+
+.footer-icons-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centraliza horizontalmente */
+    background-color: #499167;
+    padding: 10px;
+    margin-left: 100px; /* Margem automática à esquerda */
+    margin-right: 100px; /* Margem automática à direita */
+    margin-top: 0; /* Remova a margem superior */
+
+}
+
+.footer-icons{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.footer-text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
